@@ -1,7 +1,11 @@
 # https://github.com/Asabeneh/30-Days-Of-Python/blob/master/05_Day_Lists/05_lists.md
 
-from data.countries import countries
 import math
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent.parent)) # Add parent directory to Python path
+from data.countries import countries
 
 # Level 2 Exercises
 
