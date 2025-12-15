@@ -10,6 +10,8 @@ backup.md
 __pycache__
 playground/
 playground
+.venv/
+venv/
 flask_project/venv
 flask_project/ven/bin/
 flask_project/venv/include/
@@ -18,3 +20,4 @@ numpy.ipynb
 .ipynb_checkpoints
 .vscode/
 test.py
+**/.idea/
